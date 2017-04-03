@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{D7422674-8E2B-48D5-A7C3-356437D8346A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RecoverPassword.aspx.cs">
+    <Files>
+      <File FileName="SignIn.aspx" Line="80" Column="25" />
+      <File FileName="SignUp.aspx" Line="1" Column="72" />
+      <File FileName="Contact.aspx" Line="80" Column="5" />
+      <File FileName="UserHome.aspx" Line="139" Column="19" />
+      <File FileName="Default.aspx" Line="146" Column="12" />
+      <File FileName="SignUp.aspx.cs" Line="39" Column="25" />
+      <File FileName="ForgotPassword.aspx" Line="1" Column="57" />
+      <File FileName="ForgotPassword.aspx.cs" Line="50" Column="213" />
+      <File FileName="ForgotPassword.aspx.designer.cs" Line="1" Column="1" />
+      <File FileName="SignIn.aspx.cs" Line="43" Column="89" />
+      <File FileName="RecoverPassword.aspx" Line="7" Column="43" />
+      <File FileName="RecoverPassword.aspx.cs" Line="56" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyTrip PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
