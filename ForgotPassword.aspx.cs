@@ -47,7 +47,7 @@ namespace MyTrip
 				String ToEmailAddress = dt.Rows[0][3].ToString();
 				String Name = dt.Rows[0][4].ToString();
 				String EmailBody = "Hi " + Name + ",<br/><br/> Click the Button below to reset your password in MyTrip WebSite!<br/><br/> <a href=\"http://mytripapp.azurewebsites.net/RecoverPassword.aspx?Uid=" + myGUID + "\" target=\"_parent\"><button>Reset Password!</button></a>";
-				MailMessage PassRecMail = new MailMessage("mytrip.app.website@gmail.com", ToEmailAddress);
+				MailMessage PassRecMail = new MailMessage("youremail@gmail", ToEmailAddress);
 				PassRecMail.Body = EmailBody;
 				PassRecMail.IsBodyHtml = true;
 				PassRecMail.Subject = "Reset Password from MyTrip Application";
@@ -55,8 +55,8 @@ namespace MyTrip
 				SmtpClient SMTP = new SmtpClient("smtp.gmail.com", 587);
 				SMTP.Credentials = new NetworkCredential()
 				{
-					UserName = "mytrip.app.website@gmail.com",
-					Password = "MyTripApp123"
+					UserName = "youremail@gmail.com",
+					Password = "yourpassword"
 
 				};
 				SMTP.EnableSsl = true;
